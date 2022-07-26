@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Craftjakob/Netherite-Horse-Armor-CJ/issues"
+
+[[mods]]
+modId="netheritehorsearmor"
+version="${file.jarVersion}"
+displayName="Netherite Horse Armor"
+logoFile="icon.png"
+credits="Thank you for installing this mod!"
+authors="Craftjakob"
+#updateJSONURL="https://I'm_not_working.com"
+displayURL="https://github.com/Craftjakob/Netherite-Horse-Armor-CJ/wiki"
+description='''
+Add a Netherite Horse Armor and has support for my other mod Gilded Netherite
+'''
+[[dependencies.netheritehorsearmor]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.netheritehorsearmor]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
