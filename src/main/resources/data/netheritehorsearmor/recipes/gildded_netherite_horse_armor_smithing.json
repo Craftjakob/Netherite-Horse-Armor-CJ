@@ -1,12 +1,28 @@
 {
-  "type": "minecraft:smithing",
-  "base": {
-    "item": "netheritehorsearmor:netherite_horse_armor"
-  },
-  "addition": {
-    "item": "gildednetherite:gilded_netherite_ingot"
-  },
-  "result": {
-    "item": "netheritehorsearmor:gilded_netherite_horse_armor"
-  }
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/gilded_netherite"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:smithing",
+        "base": {
+          "item": "netheritehorsearmor:netherite_horse_armor"
+        },
+        "addition": {
+          "tag": "forge:ingots/gilded_netherite"
+        },
+        "result": {
+          "item": "netheritehorsearmor:gilded_netherite_horse_armor"
+        }
+      }
+    }
+  ]
 }

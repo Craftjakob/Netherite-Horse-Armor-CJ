@@ -2,11 +2,11 @@
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_gilded_netherite_ingot": {
-      "conditions": {
+      "forge:conditions": {
         "items": [
           {
-            "items": [
-              "gildednetherite:gilded_netherite_ingot"
+            "tag": [
+              "forge:ingots/gilded_netherite"
             ]
           }
         ]
