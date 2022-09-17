@@ -22,6 +22,7 @@ public class NetheriteHorseArmor {
         eventBus.addListener(this::setup);
     }
     private void setup(final FMLCommonSetupEvent event) {
-    	LOGGER.info("Netherite Horse Armor is loaded!");
+    	LOGGER.info("Netherite Horse Armor is detected!");
     }
 }
+//give @p minecraft:chest{BlockEntityTag:{LootTable:"chests/simple_dungeon"}}

@@ -12,23 +12,26 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, NetheriteHorseArmor.MODID);
 
+    // More Horse Armor
+    public static final RegistryObject<Item> COPPER_HORSE_ARMOR = ITEMS.register("copper_horse_armor",
+            () -> new HorseArmorModItem(4, "copper_horse_armor", new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC)));
+            
+    public static final RegistryObject<Item> CHAIN_HORSE_ARMOR = ITEMS.register("chain_horse_armor",
+            () -> new HorseArmorModItem(8, "chain_horse_armor", new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC)));
+    
+    public static final RegistryObject<Item> EMERALD_HORSE_ARMOR = ITEMS.register("emerald_horse_armor",
+            () -> new HorseArmorModItem(10, "emerald_horse_armor", new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC)));
+	
+    // Netherite Horse Armor
     public static final RegistryObject<Item> NETHERITE_HORSE_ARMOR = ITEMS.register("netherite_horse_armor",
             () -> new HorseArmorModItem(14, "netherite_horse_armor", new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).fireResistant()));
     
-    
     public static final RegistryObject<Item> GILDED_NETHERITE_HORSE_ARMOR = ITEMS.register("gilded_netherite_horse_armor",
             () -> new HorseArmorModItem(16, "gilded_netherite_horse_armor", new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).fireResistant()));
+
     
-/*  More Horse Armor?  
-    public static final RegistryObject<Item> COPPER_HORSE_ARMOR = ITEMS.register("copper_horse_armor",
-            () -> new HorseArmorModItem(5, "netherite_horse_armor", new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).fireResistant()));
-    
-    public static final RegistryObject<Item> EMERALD_HORSE_ARMOR = ITEMS.register("emerald_horse_armor",
-            () -> new HorseArmorModItem(10, "emerald_horse_armor", new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC).fireResistant()));
-	*/
     public static void register(IEventBus eventBus) {
 	ITEMS.register(eventBus);
 	}
-
 }
 

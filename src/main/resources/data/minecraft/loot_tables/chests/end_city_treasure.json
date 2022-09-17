@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "netheritehorsearmor:copper_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 13,
+          "name": "netheritehorsearmor:chain_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "netheritehorsearmor:emerald_horse_armor"
+        }
+      ]
+    }
+  ]
+}

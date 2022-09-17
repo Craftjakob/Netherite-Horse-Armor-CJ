@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "netheritehorsearmor:item/chain_horse_armor"
+  }
+}

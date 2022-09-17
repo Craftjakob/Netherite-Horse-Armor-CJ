@@ -2,3 +2,12 @@ NETHERITE HORSE ARMOR VERSION: 1.0.1
 	1. Fixed error if you don't have Gilded Netherite 
 	installed, there was an error in the logs because the ingot was not found
 	2. Updated Forge version
+	
+NETHERITE HORSE ARMOR VERSION: 1.1.0
+	1. Added Copper Horse Armor
+	2. Added Chain Horse Armor
+	3. Added Emerald Horse Armor
+	4. Better Source Code
+	5. Updated Forge Version
+		1.19.1 - 42.0.9
+		1.19.2 - 43.1.25

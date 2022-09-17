@@ -11,9 +11,9 @@ logoFile="icon.png"
 credits="Thank you for installing this mod!"
 authors="Craftjakob"
 #updateJSONURL="https://I'm_not_working.com"
-displayURL="https://github.com/Craftjakob/Netherite-Horse-Armor-CJ/wiki"
+displayURL="https://github.com/Craftjakob/Netherite-Horse-Armor-CJ"
 description='''
-Add a Netherite Horse Armor and has support for my other mod Gilded Netherite
+Add a Netherite Horse Armor and more Horse Armors and has support for my other mod Gilded Netherite
 '''
 [[dependencies.netheritehorsearmor]]
     modId="forge"

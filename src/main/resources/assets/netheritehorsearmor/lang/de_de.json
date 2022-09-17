@@ -1,6 +1,9 @@
 {
 	"item.netheritehorsearmor.netherite_horse_armor": "Netheritener Rossharnisch",
 	"item.netheritehorsearmor.gilded_netherite_horse_armor": "Vergoldeter Netheritener Rossharnisch",
+	"item.netheritehorsearmor.copper_horse_armor": "Kupfer Rossharnisch",
+	"item.netheritehorsearmor.emerald_horse_armor": "Smaragd Rossharnisch",
+	"item.netheritehorsearmor.chain_horse_armor": "Ketten Rossharnisch",
 	
 	"item.netheritehorsearmor.protection_tooltip": "Schutz"
 }

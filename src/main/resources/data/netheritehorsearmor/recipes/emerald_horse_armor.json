@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "EEE",
+    "E E"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "netheritehorsearmor:emerald_horse_armor",
+    "count": 1
+  }
+}
